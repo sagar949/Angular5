@@ -1,5 +1,9 @@
 {
   "name": "ng5",
+  "author": {
+    "name": "vidya sagar pamula",
+    "email": "vidya.pamula@gmail.com"
+  },
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,7 +16,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^5.0.0",
+    "@angular/animations": "^5.0.1",
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
     "@angular/core": "^5.0.0",
@@ -22,6 +26,7 @@
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
     "core-js": "^2.4.1",
+    "ng2-gauge": "^1.0.5",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },

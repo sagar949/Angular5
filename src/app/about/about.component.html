@@ -1,0 +1,18 @@
+<p>
+  Go To Home <a href="" (click)="sendMeHome()"><strong>Take me back</strong></a>
+</p>
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
+<br>
+<br>
+
+<ng-gauge [max]="100" [input]="guagenum"> </ng-gauge>
+
+<div>
+  <form class="guage">
+      <input type="text" name="item"  [(ngModel)]="guagenum">
+    </form>
+</div>
